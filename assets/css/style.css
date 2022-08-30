@@ -1,11 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
+  color: transparent;
   border: none;
   resize: none;
   color: #000000;
@@ -21,19 +28,23 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
-  text-align: center;
-  border-radius: 15px;
+.container {
+  margin-bottom: 40px;
+}
+
+.time-block {
+  align-self: center;
+  height: 100%;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -44,28 +55,45 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: #000;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: #000;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: #000;
 }
 
-.saveBtn {
+.save-btn {
+  border: 0;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
 }
 
-.saveBtn i:hover {
+.save-btn:focus {
+  outline: none;
+}
+
+.save-btn span:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Added Footer Section */
+#footer {
+  background-color: #7ef112;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: grey 3px groove;
+  height: 50px;
+  color: white;
 }
