@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -45,6 +45,7 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  ;
 }
 
 .hour {
@@ -73,7 +74,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #06AED5;
   color: white;
 }
 
@@ -84,7 +85,7 @@ textarea {
 .save-btn span:hover {
   font-size: 20px;
   color: #000;
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 /* Added Footer Section */
@@ -96,4 +97,4 @@ textarea {
   border-top: grey 3px groove;
   height: 50px;
   color: white;
-}
+} 
