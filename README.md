@@ -89,5 +89,5 @@ The following image shows the web application's appearance:
 
 ### Submission
 * Date Submitted: August 30, 2022.
-* The URL of the deployed application: https://bslockhart.github.io/Work-Day-Schedular-Daily-Planner/
+* The URL of the deployed application:  https://bslockhart.github.io/Work-Day-Scheduler-Daily-Planner/
 * The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Work-Day-Schedular-Daily-Planner
